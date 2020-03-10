@@ -1,0 +1,6 @@
+MODULE MainModule
+	CONST robtarget Udgpos:=[[346.14,-2.47,470.78],[0.0835884,0.0167447,-0.995045,0.0511663],[0,-1,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+	PROC main()
+		MoveJ Udgpos, v1000, z50, tool0;
+	ENDPROC
+ENDMODULE
